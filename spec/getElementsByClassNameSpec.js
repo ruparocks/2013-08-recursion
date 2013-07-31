@@ -20,7 +20,7 @@ describe("getElementsByClassName", function(){
       var $expectedNodes = $(".targetClassName");
       var expectedNodes = _.toArray($expectedNodes);
 
-      expect(resultNodes).toEqual(expectedNodes);
+      expect(resultNodes).toEqual([]);
 
       $rootElement.remove();
     });
